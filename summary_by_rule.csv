@@ -1,0 +1,12 @@
+﻿rule,documents,amount,severity,what_it_checks
+invalid_key_dv,12,13222.15,HIGH,Access key check digit is wrong
+key_field_mismatch,10,18142.77,HIGH,Numbers inside the key disagree with the XML body
+duplicate_xml,10,21365.48,HIGH,Same CT-e received in more than one file
+duplicate_service,14,10216.58,HIGH,New CT-e for an NF-e that another CT-e already carried
+cancelled_cte,18,35018.63,MEDIUM,Cancelled CT-e in the batch
+total_mismatch,10,285.39,MEDIUM,Total is not the sum of the components
+freight_above_contract,35,5752.35,MEDIUM,Freight above weight x rate (or minimum charge)
+gris_mismatch,10,1426.68,LOW,Risk-management fee differs from contract % x cargo value
+toll_above_contract,12,545.94,MEDIUM,Toll above what the contract allows
+no_contract,10,14172.32,MEDIUM,No contract for this carrier on this route and date
+orphan_complement,4,257.87,HIGH,Complement CT-e whose original is not in the batch

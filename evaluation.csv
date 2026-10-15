@@ -1,0 +1,14 @@
+﻿rule,planted,found,missed,false_alarms,precision,recall
+invalid_key_dv,12,12,0.0,0,1.0,1.0
+key_field_mismatch,10,10,0.0,0,1.0,1.0
+duplicate_xml,10,10,0.0,0,1.0,1.0
+duplicate_service,14,14,0.0,0,1.0,1.0
+cancelled_cte,18,18,0.0,0,1.0,1.0
+total_mismatch,10,10,0.0,0,1.0,1.0
+freight_above_contract,35,35,0.0,0,1.0,1.0
+gris_mismatch,10,10,0.0,0,1.0,1.0
+toll_above_contract,12,12,0.0,0,1.0,1.0
+no_contract,10,10,0.0,0,1.0,1.0
+orphan_complement,4,4,0.0,0,1.0,1.0
+quarantine,3,3,0.0,0,1.0,1.0
+(traps flagged by any rule),55,0,,0,,

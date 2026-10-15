@@ -1,0 +1,4 @@
+﻿file,reason
+malformed_empty.xml,"XML is not well-formed (no element found: line 1, column 0)"
+malformed_not_a_cte.xml,not a CT-e (no <CTe> element)
+malformed_truncated.xml,"XML is not well-formed (unclosed token: line 7, column 23)"
